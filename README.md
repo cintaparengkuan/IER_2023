@@ -56,30 +56,21 @@ installing. Check the box marking that you accept our terms and conditions and c
 1. For the fatigue loading test, make sure to have already run the static loading test.
 2. Click "New Study" and select "Fatigue", make sure that you have selected "constant amplitude events with defined cycles" and then the green checkmark.
 3. Right-click "Loading (-Constant Amplitude) and only change the number of cycles to 3000
-4. Now you should see a dropdown arrow next to the name of the model you have chosen.
+4. Now you should see a dropdown arrow next to the name of the model you have chosen, make sure that the parts that you have excluded before, are excluded once again.
+5. Right-click the name of the model you have chosen and click "Apply Fatigue Data to All Bodies". Here you can select your Fatigue SN Curve.
+6. Select Derive from material Elastic Modulus Based on ASME Carbon Steel curves and click on apply and then close.
+7. Now you can run this study, please keep in mind that this also going to take a while.
+8. If you get an error asking to rerun it, click yes.
+9. Now you should have the results from this test. If you would like to see the exact numbers from the result, you can click "Report" and this should create a Word document.
 
-### Sample Tests
-
-Explain what these tests test and why
-
-    Give an example
-
-### Style test
-
-Checks if the best practices and the right coding style has been used.
-
-    Give an example
-
-## Deployment
-
-Add additional notes to deploy this on a live system
 
 ## Built With
 
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
+  - [SolidWorks](https://software.tudelft.nl/498/) - Used for CAD modeling and FEA simulations
+  - [EduVPN](https://www.eduvpn.org/client-apps/) - Used run SolidWorks and to secure a private network connection during data transfer and collaboration
+
+## Repository Contents
+- 
 
 ## Contributing
 
