@@ -70,7 +70,13 @@ installing. Check the box marking that you accept our terms and conditions and c
   - [EduVPN](https://www.eduvpn.org/client-apps/) - Used run SolidWorks and to secure a private network connection during data transfer and collaboration
 
 ## Repository Contents
-- 
+- Shell_Large, Shell_Medium, Shell_Small: These directories contain models for three different sizes: small, medium and large. Each size includes three variations:
+    - Original model
+    - Rib structure model
+    - TPU material model
+ - For the SolidWorks part, please select the SLDPRT file.
+ - The docx file is a report that shows the exact numbers of the tests run by me.
+ - All the other files are files that were made when conducting the tests, make sure to also download these to conduct the tests.
 
 ## Contributing
 
