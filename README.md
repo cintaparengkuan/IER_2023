@@ -7,7 +7,7 @@ This repository contains the code, data, and results for the project on optimizi
 These instructions will give you a copy of the project up and running on your local machine for development and testing purposes. See deployment
 for notes on deploying the project on a live system. 
 
-First off, I would to recommend to clear out 20 GB, you are going to need that space :)
+First off, I would to recommend to clear out 20 GB. You are going to need that space, sorry :)
 If by any chance you don't have this luxury, please make use of the on-campus computers.
 
 ### Prerequisites
