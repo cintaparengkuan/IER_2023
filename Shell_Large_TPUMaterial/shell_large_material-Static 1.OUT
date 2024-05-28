@@ -1,0 +1,1777 @@
+
+****************************************************************
+****************************************************************
+**                                                            **
+**                                                            **
+**        CCC     OO      SSS    M    M     OO      SSS       **
+**       C       O  O    S       MM  MM    O  O    S          **
+**       C       O  O     SS     M MM M    O  O     SS        **
+**       C       O  O       S    M    M    O  O       S       **
+**        CCC     OO     SSS     M    M     OO     SSS        **
+**                                                            **
+**                                                            **
+**                   Simulations  V2023-SP01                  **
+**                 Simulation Premium Package                 **
+**           Distributed By: SOLIDWORKS Corporation           **
+**               21255 Burbank Blvd Suite 400                 **
+**               Woodland Hills, California 91367             **
+**               Telephone Number (774)556-3100               **
+**         Copyright 1988-2018 SOLIDWORKS Corporation         **
+**                                                            **
+****************************************************************
+****************************************************************
+
+Problem name: C:\Users\cinta\Downloads\shell_large_mat
+Date        : 05/27/2024     Time:   21:34:16
+
+
+ SYSTEM OF UNITS:
+ International System of Units, SI, is used for all input/output data.
+ Common Quantities:
+ Length:meter, Mass:kilogram, Time:second, Temperature:kelvin
+ Force:newton, Pressure also stress:pascal, Energy:joule, Power:watt
+
+ NUMBER OF PHYSICAL CORES USED TO RUN SIMULATION:  6
+
+  C O N T R O L  I N F O R M A T I O N                  
+
+   CURRENT RESTRAINT SET . . . . . . . . . . . (BC_SET)  =           1
+
+   NUMBER OF LOAD CASES  . . . . . . . . . . . (NLCASE)  =           1
+   SOLUTION MODE . . . . . . . . . . . . . . . (MODEX)   =           0
+      EQ. 0, STATIC ANALYSIS                              
+      EQ. 1, BUCKLING ANALYSIS                            
+      EQ. 2, DYNAMIC ANALYSIS                             
+      EQ. 3, DROP TEST                                    
+
+   SOLVER TYPE . . . . . . . . . . . . . . . . .(ISOL)   =           5
+      EQ. 0, DIRECT SPARSE SOLVER                         
+      EQ. 1, DIRECT SKYLINE SOLVER                        
+      EQ. 2, ITERATIVE SOLVER                             
+      EQ. 3, EXPLICIT INTEGRATION                         
+      EQ. 4, LARGE PROBLEM DIRECT SPARSE SOLVER           
+      EQ. 5, INTEL DIRECT SPARSE SOLVER                   
+      EQ. 6, INTEL NETWORK SPARSE SOLVER                  
+      EQ. 7, SINGULAR VALUE DECOMPOSTION (SVD)            
+
+   THERMAL LOADING FLAG . . . . . . . . . . . .(ITHERM)  =           0
+      EQ. 0, NO THERMAL EFFECTS CONSIDERED                
+      EQ. 1, ADD TEMPERATURE EFFECT                       
+   GRAVITY LOADING FLAG . . . . . . . . . . . .(IGRAV)   =           0
+      EQ. 0, NO GRAVITY LOADING CONSIDERED                
+      EQ. 1, ADD GRAVITY LOADING EFFECT                   
+   CENTRIFUGAL LOADING FLAG . . . . . . . . . .(ICNTRF)  =           0
+      EQ. 0, NO CENTRIFUGAL LOADING CONSIDERED            
+      EQ. 1, ADD CENTRIFUGAL LOADING EFFECT               
+   IN-PLANE STIFFENING FLAG . . . . . . . . . .(INPLN)   =           0
+      EQ. 0, NO IN-PLANE EFFECTS CONSIDERED               
+      EQ. 1, IN-PLANE EFFECTS CONSIDERED                  
+   SOFT SPRING ADDITION FLAG . . . . . . . . . (ISOFT)   =           0
+      EQ. 0, NO SOFT SPRING OPTION                        
+      EQ. 1, SOFT SPRING ADDED                            
+
+   SAVE DECOMPOSED STIFFNESS MATRIX FLAG . . . (ISAVK)   =           0
+      EQ. 0, DO NOT SAVE DECOMPOSED K                     
+      EQ. 1, SAVE DECOMPOSED K                            
+   FORM STIFFNESS MATRIX FLAG . . . . . . . . .(IFORMK)  =           0
+      EQ. 0, FORM STIFFNESS MATRIX                        
+      EQ. 1, USE EXISTING DECOMPOSED STIFFNESS MATRIX     
+
+   SPIN SOFTENING FLAG . . . . . . . . . . . . (ISPIN)   =           0
+      EQ. 0, NO SPIN SOFTENING EFFECTS CONSIDERED         
+      EQ. 1, SPIN SOFTENING EFFECTS CONSIDERED            
+   INERTIA RELIEF FLAG  . . . . . . . . . . . .(IFORMK)  =           0
+      EQ. 0, NO INERITA RELIEF EFFECTS CONSIDERED         
+      EQ. 1, INERITA RELIEF EFFECTS CONSIDERED            
+   RIGID CONNECTIONS FLAG  . . . . . . . . . . (IRIGID)  =           0
+      EQ. 0, HINGE CONNECTIONS BETWEEN SOLIDS & SHELLS    
+      EQ. 1, RIGID CONNECTIONS BETWEEN SOLIDS & SHELLS    
+
+
+  T O T A L  S Y S T E M  D A T A                        
+   NUMBER OF EQUATIONS . . . . . . . . . . . . . .(NEQ)  =       52164
+   MEAN HALF BANDWIDTH . . . . . . . . . . . . . .(MM )  =         138
+   NUMBER OF ELEMENTS. . . . . . . . . . . . . . .(NUME) =       15067
+   NUMBER OF NODAL POINTS. . . . . . . . . . . . .(NUMNP)=       17564
+
+  I N T E R A C T I O N  D A T A                         
+   SURFACE-TO-SURFACE BONDING ALGORITHM . . . .(INTRBALG)=           1
+      EQ. 0, STANDARD                                     
+      EQ. 1, ADVANCED                                     
+
+   ORIGINAL NO. OF MATRIX ELEMENTS . . . . . . . .(NWK)  =     1999754
+
+
+
+
+************************************************************************
+    D I S P L A C E M E N T     P R I N T O U T    (LOAD CASE     1)
+************************************************************************
+
+
+
+
+************************************************************************
+    D I S P L A C E M E N T     P R I N T O U T    (LOAD CASE     1)
+************************************************************************
+
+
+  STATUS OF THERMAL EFFECTS FOR THIS LOAD CASE:
+  ---------------------------------------------
+
+    - Thermal flag is off (no thermal effect)
+
+
+
+  S O L U T I O N   T I M E   L O G   I N   S E C
+            FOR PROBLEM
+     TIME FOR INPUT PHASE  . . . . . . . . . . . . . . =       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       3
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     278
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     738
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     299
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     689
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     281
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     654
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     271
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     634
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       5
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     283
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     654
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       6
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     266
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     631
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       7
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     281
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     642
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     279
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     645
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     308
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     704
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     275
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     627
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     276
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     625
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     270
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     635
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       5
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     276
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     642
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       6
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     280
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     653
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       7
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     274
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     662
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     263
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     648
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     271
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     655
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     293
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     642
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     270
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     622
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     273
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     626
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       5
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     281
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     626
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       6
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     276
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     643
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       7
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     280
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     638
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     262
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     633
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     280
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     626
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     278
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     631
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     289
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     625
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     290
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     622
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       5
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     286
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     618
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       6
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     281
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     623
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       7
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     269
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     631
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       8
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     273
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     630
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       9
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     278
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     634
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+
+   LOAD FACTOR =   0.6407E-01
+   ***************************
+
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.705668E-03
+
+             D I S P L A C E M E N T S
+
+     NODE X-DISPL.     Y-DISPL.     Z-DISPL.     XX-ROT.      YY-ROT.      ZZ-ROT.
+
+
+ MINIMUM/MAXIMUM DISPLACEMENTS
+
+  NODE        44            3            4            1            1            1
+  MIN.  -1.35903E-02 -5.34407E-04 -4.42212E-02   0.0000       0.0000       0.0000    
+
+  NODE      6007         6511          126        17564        17564        17564
+  MAX.   3.33875E-03  7.18599E-06  1.43045E-02   0.0000       0.0000       0.0000    
+
+ MAXIMUM RESULTANT DISPLACEMENT
+
+  NODE         4
+  MAX.   4.61934E-02
+
+
+         R E A C T I O N   F O R C E
+
+  TOTAL   CSYS         FX             FY             FZ
+           0       -.4062E-01     0.6732E-05     0.8163E-02
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.726545E-03
+
+
+
+********************************************************************************
+ MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
+********************************************************************************
+
+  NODE      2029
+  MAX.     0.26075E+06
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Results) .=     365
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     257
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     619
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     270
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     622
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     279
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     625
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     289
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     638
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     275
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     627
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       5
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     269
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     632
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       6
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     266
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     623
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       7
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     278
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     634
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       8
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     273
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     640
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       9
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     276
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     624
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =      10
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     262
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     643
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     281
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     636
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     267
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     637
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     277
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     626
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     278
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     634
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     294
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     614
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+
+   LOAD FACTOR =   0.1199E+00
+   ***************************
+
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.215138E-02
+
+             D I S P L A C E M E N T S
+
+     NODE X-DISPL.     Y-DISPL.     Z-DISPL.     XX-ROT.      YY-ROT.      ZZ-ROT.
+
+
+ MINIMUM/MAXIMUM DISPLACEMENTS
+
+  NODE         3            3            4            1            1            1
+  MIN.  -3.11748E-02 -8.45741E-04 -6.33403E-02   0.0000       0.0000       0.0000    
+
+  NODE      3553         6511          126        17564        17564        17564
+  MAX.   4.83458E-03  1.44189E-05  2.55389E-02   0.0000       0.0000       0.0000    
+
+ MAXIMUM RESULTANT DISPLACEMENT
+
+  NODE         4
+  MAX.   7.04953E-02
+
+
+         R E A C T I O N   F O R C E
+
+  TOTAL   CSYS         FX             FY             FZ
+           0       -.7619E-01     -.2650E-04     0.1460E-01
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.204498E-02
+
+
+
+********************************************************************************
+ MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
+********************************************************************************
+
+  NODE      2029
+  MAX.     0.42332E+06
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Results) .=     346
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     257
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     625
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     273
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     634
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     276
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     630
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     281
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     625
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     277
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     618
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       5
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     282
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     617
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       6
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     275
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     620
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     279
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     618
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     276
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     632
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     282
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     633
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     275
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     623
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     276
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     636
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       5
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     270
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     631
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       6
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     288
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     623
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       7
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     271
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     631
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       8
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     272
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     625
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       9
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     273
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     638
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =      10
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     279
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     632
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =      11
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     278
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     632
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+
+   LOAD FACTOR =   0.1773E+00
+   ***************************
+
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.388664E-02
+
+             D I S P L A C E M E N T S
+
+     NODE X-DISPL.     Y-DISPL.     Z-DISPL.     XX-ROT.      YY-ROT.      ZZ-ROT.
+
+
+ MINIMUM/MAXIMUM DISPLACEMENTS
+
+  NODE         3            3            4            1            1            1
+  MIN.  -5.43173E-02 -1.00089E-02 -7.46129E-02   0.0000       0.0000       0.0000    
+
+  NODE      3859           98         6193        17564        17564        17564
+  MAX.   5.78604E-03  1.11306E-05  3.49816E-02   0.0000       0.0000       0.0000    
+
+ MAXIMUM RESULTANT DISPLACEMENT
+
+  NODE         4
+  MAX.   9.27651E-02
+
+
+         R E A C T I O N   F O R C E
+
+  TOTAL   CSYS         FX             FY             FZ
+           0       -.1114         0.6228E-03     0.2151E-01
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.357906E-02
+
+
+
+********************************************************************************
+ MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
+********************************************************************************
+
+  NODE     16270
+  MAX.     0.58547E+06
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Results) .=     344
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     261
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     628
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     278
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     615
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     268
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     632
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     275
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     629
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     272
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     633
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       5
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     282
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     620
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       6
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     287
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     638
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       7
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     285
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     626
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       8
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     283
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     631
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       9
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     279
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     619
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     268
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     633
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     282
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     625
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     277
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     628
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     274
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     640
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     283
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     611
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       5
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     268
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     629
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       6
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     270
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     635
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       7
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     282
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     637
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     280
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     629
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     272
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     637
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     277
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     619
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     283
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     624
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     277
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     627
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       5
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     291
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     630
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       6
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     292
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     656
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       7
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     292
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     630
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       8
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     281
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     637
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       9
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     282
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     642
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =      10
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     283
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     640
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =      11
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     293
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     630
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     289
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     614
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     283
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     628
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     282
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     642
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     284
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     630
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     282
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     640
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       5
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     279
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     628
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       6
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     291
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     621
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       7
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     270
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     635
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       8
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     274
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     636
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       9
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     269
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     634
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =      10
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     276
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     628
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     285
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     631
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     285
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     623
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     275
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     616
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     279
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     629
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     289
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     631
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     280
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     633
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     278
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     644
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     288
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     651
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     282
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     628
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     273
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     617
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     286
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     619
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     283
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     627
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     282
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     633
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     286
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     625
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     278
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     620
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     291
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     630
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     265
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     637
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     282
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     625
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     270
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     648
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     292
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     625
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     272
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     630
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     283
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     643
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     271
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     642
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     278
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     646
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     273
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     626
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     279
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     632
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     287
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     634
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     283
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     618
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     288
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     638
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     288
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     636
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     282
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     629
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     279
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     640
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     283
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     621
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     272
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     626
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     275
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     638
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     264
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     640
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     273
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     639
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     272
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     634
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     270
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     629
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     279
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     642
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     276
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     655
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     266
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     637
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     297
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     654
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     274
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     632
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     277
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     624
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     280
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     642
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     267
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     631
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     286
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     643
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     277
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     628
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     284
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     634
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     285
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     637
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     276
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     627
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     279
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     617
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     291
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     636
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     283
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     642
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+
+   LOAD FACTOR =   0.2276E+00
+   ***************************
+
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.589142E-02
+
+             D I S P L A C E M E N T S
+
+     NODE X-DISPL.     Y-DISPL.     Z-DISPL.     XX-ROT.      YY-ROT.      ZZ-ROT.
+
+
+ MINIMUM/MAXIMUM DISPLACEMENTS
+
+  NODE         3            4            4            1            1            1
+  MIN.  -5.35923E-02 -9.87781E-04 -7.65972E-02   0.0000       0.0000       0.0000    
+
+  NODE      5088         4533          126        17564        17564        17564
+  MAX.   6.37589E-03  3.53343E-05  4.15954E-02   0.0000       0.0000       0.0000    
+
+ MAXIMUM RESULTANT DISPLACEMENT
+
+  NODE         4
+  MAX.   9.33953E-02
+
+
+         R E A C T I O N   F O R C E
+
+  TOTAL   CSYS         FX             FY             FZ
+           0       -.1442         -.1400E-03     0.2899E-01
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.483819E-02
+
+
+
+********************************************************************************
+ MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
+********************************************************************************
+
+  NODE     16270
+  MAX.     0.78557E+06
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Results) .=     356
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     259
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     634
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     283
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     638
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     275
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     646
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     287
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     627
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     274
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     620
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     270
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     620
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     278
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     632
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     277
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     634
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     282
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     619
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     272
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     622
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     282
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     626
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     273
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     637
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+
+   LOAD FACTOR =   0.2999E+00
+   ***************************
+
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.870604E-02
+
+             D I S P L A C E M E N T S
+
+     NODE X-DISPL.     Y-DISPL.     Z-DISPL.     XX-ROT.      YY-ROT.      ZZ-ROT.
+
+
+ MINIMUM/MAXIMUM DISPLACEMENTS
+
+  NODE         3            4            4            1            1            1
+  MIN.  -6.23571E-02 -1.03725E-03 -7.99098E-02   0.0000       0.0000       0.0000    
+
+  NODE      5492         4533          126        17564        17564        17564
+  MAX.   6.94861E-03  4.45222E-05  4.86913E-02   0.0000       0.0000       0.0000    
+
+ MAXIMUM RESULTANT DISPLACEMENT
+
+  NODE         4
+  MAX.   0.10129    
+
+
+         R E A C T I O N   F O R C E
+
+  TOTAL   CSYS         FX             FY             FZ
+           0       -.1901         0.8827E-04     0.3730E-01
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.660058E-02
+
+
+
+********************************************************************************
+ MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
+********************************************************************************
+
+  NODE     16270
+  MAX.     0.92146E+06
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Results) .=     350
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     259
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     637
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     284
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     642
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     266
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     640
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     285
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     626
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     278
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     639
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     294
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     632
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     277
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     637
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     278
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     622
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+
+   LOAD FACTOR =   0.3688E+00
+   ***************************
+
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.115298E-01
+
+             D I S P L A C E M E N T S
+
+     NODE X-DISPL.     Y-DISPL.     Z-DISPL.     XX-ROT.      YY-ROT.      ZZ-ROT.
+
+
+ MINIMUM/MAXIMUM DISPLACEMENTS
+
+  NODE         3            4            4            1            1            1
+  MIN.  -6.82647E-02 -1.04197E-03 -8.18648E-02   0.0000       0.0000       0.0000    
+
+  NODE      4310         4533          126        17564        17564        17564
+  MAX.   7.35196E-03  5.27553E-05  5.37215E-02   0.0000       0.0000       0.0000    
+
+ MAXIMUM RESULTANT DISPLACEMENT
+
+  NODE         4
+  MAX.   0.10654    
+
+
+         R E A C T I O N   F O R C E
+
+  TOTAL   CSYS         FX             FY             FZ
+           0       -.2339         -.1519E-04     0.4587E-01
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.819364E-02
+
+
+
+********************************************************************************
+ MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
+********************************************************************************
+
+  NODE     16270
+  MAX.     0.10380E+07
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Results) .=     353
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     261
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     628
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     280
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     631
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     273
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     626
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     283
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     629
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     286
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     623
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     279
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     622
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     281
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     622
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     273
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     632
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     287
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     627
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     286
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     623
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+
+   LOAD FACTOR =   0.4764E+00
+   ***************************
+
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.161280E-01
+
+             D I S P L A C E M E N T S
+
+     NODE X-DISPL.     Y-DISPL.     Z-DISPL.     XX-ROT.      YY-ROT.      ZZ-ROT.
+
+
+ MINIMUM/MAXIMUM DISPLACEMENTS
+
+  NODE         3            4            4            1            1            1
+  MIN.  -7.46716E-02 -1.01225E-03 -8.39373E-02   0.0000       0.0000       0.0000    
+
+  NODE      4998         4533          126        17564        17564        17564
+  MAX.   7.81211E-03  6.38014E-05  5.93762E-02   0.0000       0.0000       0.0000    
+
+ MAXIMUM RESULTANT DISPLACEMENT
+
+  NODE         4
+  MAX.   0.11231    
+
+
+         R E A C T I O N   F O R C E
+
+  TOTAL   CSYS         FX             FY             FZ
+           0       -.3021         -.2056E-03     0.5901E-01
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.105201E-01
+
+
+
+********************************************************************************
+ MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
+********************************************************************************
+
+  NODE     16270
+  MAX.     0.12019E+07
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Results) .=     368
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     259
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     629
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     274
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     616
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     281
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     621
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     283
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     637
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     281
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     624
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+
+   LOAD FACTOR =   0.5511E+00
+   ***************************
+
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.194187E-01
+
+             D I S P L A C E M E N T S
+
+     NODE X-DISPL.     Y-DISPL.     Z-DISPL.     XX-ROT.      YY-ROT.      ZZ-ROT.
+
+
+ MINIMUM/MAXIMUM DISPLACEMENTS
+
+  NODE         3            4            4            1            1            1
+  MIN.  -7.78578E-02 -9.79358E-04 -8.50398E-02   0.0000       0.0000       0.0000    
+
+  NODE      5189         4533         5119        17564        17564        17564
+  MAX.   8.04667E-03  7.01352E-05  6.22663E-02   0.0000       0.0000       0.0000    
+
+ MAXIMUM RESULTANT DISPLACEMENT
+
+  NODE         4
+  MAX.   0.11527    
+
+
+         R E A C T I O N   F O R C E
+
+  TOTAL   CSYS         FX             FY             FZ
+           0       -.3495         -.9052E-04     0.6814E-01
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.120362E-01
+
+
+
+********************************************************************************
+ MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
+********************************************************************************
+
+  NODE     16270
+  MAX.     0.13039E+07
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Results) .=     353
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     264
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     644
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     282
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     623
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     278
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     668
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     313
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     663
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     292
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     623
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+
+   LOAD FACTOR =   0.6445E+00
+   ***************************
+
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.236196E-01
+
+             D I S P L A C E M E N T S
+
+     NODE X-DISPL.     Y-DISPL.     Z-DISPL.     XX-ROT.      YY-ROT.      ZZ-ROT.
+
+
+ MINIMUM/MAXIMUM DISPLACEMENTS
+
+  NODE         3            4            4            1            1            1
+  MIN.  -8.09230E-02 -9.31636E-04 -8.62164E-02   0.0000       0.0000       0.0000    
+
+  NODE      5189         4533            9        17564        17564        17564
+  MAX.   8.28578E-03  7.68638E-05  6.51134E-02   0.0000       0.0000       0.0000    
+
+ MAXIMUM RESULTANT DISPLACEMENT
+
+  NODE         4
+  MAX.   0.11822    
+
+
+         R E A C T I O N   F O R C E
+
+  TOTAL   CSYS         FX             FY             FZ
+           0       -.4085         -.2956E-03     0.7960E-01
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.138390E-01
+
+
+
+********************************************************************************
+ MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
+********************************************************************************
+
+  NODE       494
+  MAX.     0.14391E+07
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Results) .=     359
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       0
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     266
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     662
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     279
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     634
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     286
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     642
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     329
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     682
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     289
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     643
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+
+   LOAD FACTOR =   0.7613E+00
+   ***************************
+
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.289816E-01
+
+             D I S P L A C E M E N T S
+
+     NODE X-DISPL.     Y-DISPL.     Z-DISPL.     XX-ROT.      YY-ROT.      ZZ-ROT.
+
+
+ MINIMUM/MAXIMUM DISPLACEMENTS
+
+  NODE         3         1339            4            1            1            1
+  MIN.  -8.37990E-02 -8.71341E-04 -8.74888E-02   0.0000       0.0000       0.0000    
+
+  NODE      3900         4533            9        17564        17564        17564
+  MAX.   8.52921E-03  8.37619E-05  6.78792E-02   0.0000       0.0000       0.0000    
+
+ MAXIMUM RESULTANT DISPLACEMENT
+
+  NODE         4
+  MAX.   0.12113    
+
+
+         R E A C T I O N   F O R C E
+
+  TOTAL   CSYS         FX             FY             FZ
+           0       -.4824         -.1189E-03     0.9353E-01
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.159745E-01
+
+
+
+********************************************************************************
+ MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
+********************************************************************************
+
+  NODE       494
+  MAX.     0.16191E+07
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Results) .=     375
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     280
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     659
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     333
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     685
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     317
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     667
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     318
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     730
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       4
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     298
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     763
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+
+   LOAD FACTOR =   0.9072E+00
+   ***************************
+
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.358241E-01
+
+             D I S P L A C E M E N T S
+
+     NODE X-DISPL.     Y-DISPL.     Z-DISPL.     XX-ROT.      YY-ROT.      ZZ-ROT.
+
+
+ MINIMUM/MAXIMUM DISPLACEMENTS
+
+  NODE         3         1339            4            1            1            1
+  MIN.  -8.64383E-02 -7.97005E-04 -8.88678E-02   0.0000       0.0000       0.0000    
+
+  NODE      3589         4533            9        17564        17564        17564
+  MAX.   8.74767E-03  9.05210E-05  7.05093E-02   0.0000       0.0000       0.0000    
+
+ MAXIMUM RESULTANT DISPLACEMENT
+
+  NODE         4
+  MAX.   0.12396    
+
+
+         R E A C T I O N   F O R C E
+
+  TOTAL   CSYS         FX             FY             FZ
+           0       -.5748         0.5766E-03     0.1113    
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.184971E-01
+
+
+
+********************************************************************************
+ MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
+********************************************************************************
+
+  NODE       494
+  MAX.     0.18255E+07
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Results) .=     372
+
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Prep) . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     273
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     669
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       1
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     301
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     694
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+     ***** ITERATION NUMBER ***** . . . . . . . . =       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX . . . . . =     293
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . . . . . . .=     647
+     TIME FOR LCP CONTACT(AND/OR LRG DISP) OPERATIONS(Convrg chk) =       0
+
+
+   LOAD FACTOR =   0.1000E+01
+   ***************************
+
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.402415E-01
+
+             D I S P L A C E M E N T S
+
+     NODE X-DISPL.     Y-DISPL.     Z-DISPL.     XX-ROT.      YY-ROT.      ZZ-ROT.
+
+
+ MINIMUM/MAXIMUM DISPLACEMENTS
+
+  NODE         3           35            4            1            1            1
+  MIN.  -8.77473E-02 -7.51905E-04 -8.96494E-02   0.0000       0.0000       0.0000    
+
+  NODE      3589         4533            9        17564        17564        17564
+  MAX.   8.88018E-03  9.39497E-05  7.18592E-02   0.0000       0.0000       0.0000    
+
+ MAXIMUM RESULTANT DISPLACEMENT
+
+  NODE         4
+  MAX.   0.12543    
+
+
+         R E A C T I O N   F O R C E
+
+  TOTAL   CSYS         FX             FY             FZ
+           0       -.6325         -.9167E-03     0.1229    
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.200291E-01
+
+
+
+********************************************************************************
+ MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
+********************************************************************************
+
+  NODE       494
+  MAX.     0.19477E+07
+
+
+
+   E R R O R    E S T I M A T I O N
+   (for requested elements)
+
+   Total Strain Energy (TSE)        =  0.200291E-01
+   Total Error Energy (TEE)         =  0.953984E-02
+   Ave. Percentage Error (APE)      =  0.438570E+02
+     ( APE =  sqrt (TEE/(TSE*2. + TEE)) * 100. )
+     TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (Results) .=     361
+
+
+   SOLVER TYPE ACTUALLY USED . . . . . . . . . .(FISOL)  =           5
+      EQ. 0, DIRECT SPARSE SOLVER                         
+      EQ. 1, DIRECT SKYLINE SOLVER                        
+      EQ. 2, ITERATIVE SOLVER                             
+      EQ. 3, EXPLICIT INTEGRATION                         
+      EQ. 4, LARGE PROBLEM DIRECT SPARSE SOLVER           
+      EQ. 5, INTEL DIRECT SPARSE SOLVER                   
+      EQ. 6, INTEL NETWORK SPARSE SOLVER                  
+
+
+
+
+********************************************************************************
+   MFLOP Rate of Matrix Decomposition . . . . . . . (MF/Sec)=       0.0
+********************************************************************************
+
+
+                             S O L U T I O N    T I M E   L O G    I N    S E C O N D S
+  DEFINITIONS
+     INP_PHASE=TIME FOR INPUT PHASE
+     STF_PHASE=TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX
+     REN_PHASE=TIME FOR REORDERING EQUATIONS
+     SOL_PHASE=TIME FOR INTEL DIRECT SPARSE SOLUTION
+     CNT_PHASE=TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS
+     REC_PHASE=TIME FOR REACTION FORCE & DISP UPDATE TO POST
+     STS_PHASE=TIME FOR STRESS CALCULATION
+     LCS_PHASE=TIME FOR LOAD CASE SOLUTIONS
+     TOT_TIME =TOTAL SOLUTION TIME
+
+          INP_PHASE STF_PHASE REN_PHASE SOL_PHASE CNT_PHASE REC_PHASE STS_PHASE LCS_PHASE  TOT_TIME 
+                  0        60        97        33         4         0         0         0       212
+                                                      (   0: 3:32)
+
+
+
+   MAXIMUM MEMORY USED IN MEGABYTES . . . . . . (MAXMB)  =         272
+
